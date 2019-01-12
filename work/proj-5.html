@@ -1,5 +1,5 @@
-<p>My main goal during this project has been to lift the effect of the light beams being in the physical room. First implementation was by creating light sourcec along the light beams - this proved to be challanging
-  since lightsources are rarely linear. <a href=https://github.com/Unity-Technologies/VolumetricLighting> Tube light</a>, volymetric light and emission workes best if baked (pre calculated light maps). Non-real time light was not an option.
+<p>My main goal during this project has been to enhance the illusion of the light beams being in the physical room. First implementation was by creating light sources along the light beams. This proved to be challanging
+  since lightsources defined by unity are not linear. <a href=https://github.com/Unity-Technologies/VolumetricLighting> Tube light</a>, volymetric light and emission are all solutions if this was VR - they work best if baked (pre calculated light maps). Non-real time light was not an option - we had to look at other options.
 </p><p>
 As Robin persued post processing effects on the light - this would create local effect of light.
 I chose to focus on the floor. What if I would create a shader that took the light beam location and
@@ -19,6 +19,11 @@ I succesfully managed to make an relative angle between the "start of the light 
 <iframe src="https://giphy.com/embed/iq0FbzW7edbiTFIdRu" width="480" height="236" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 <p>
 Unfortunately this is where I am so far. My calculation manage somehow break the reflection. I will keep you posted on further development.
+
+</p>
+<p>
+<a ref=https://www.sciencedirect.com/science/article/pii/009784939190079W> Shading and shadowing with linear light sources<a>
+
 </p>
 <p>
   I have, besides shaders, developed this site, designed artwork and posters, doing research and, most of all, helped debugging.
